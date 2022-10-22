@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::placeholder {
+    color: whitesmoke;
+
+}
+body {
+    background: linear-gradient(rgb(0 0 0 / 0.6) 0 0), url(bg2.jpg), no-repeat;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 4.5rem;
+    color: rgb(65, 243, 225);
+}
+.cityInputDiv {
+    display: flex;
+    justify-content: center;
+
+}
+.inputText {
+    margin-top: 10px;
+    width: 600px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 1.5rem;
+    border-bottom: 3px solid rgb(65, 243, 225);
+
+}
+
+.getTempButtonDiv {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+#getTempButton {
+    width: 300px;
+    font-size: 1.3rem;
+    padding: 7px;
+    border: 2px solid rgb(245, 172, 36);
+    border-radius: 5%;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+#getTempButton:hover {
+    background-color: rgb(65, 243, 225);
+}
+#getTempButton:active {
+    transform: scale(1.1);
+}
+
+.info {
+    margin: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.info p {
+    margin-top: 20px;
+}
+
+.generalTemp {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.generalTemp .fa-circle {
+    font-size: 20px;
+    transform: translate(10px, 25px);
+}
+
+.generalTemp .fa-c {
+    transform: translate(6px, 25px);
+    font-size: 4rem;
+}
+
+#generalTemp {
+    font-size: 4rem;
+}
+
+.feelsTemp {
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+}
+.feelsTemp .fa-circle {
+        font-size: 10px;
+        transform: translate(10px, 25px);
+}
+.feelsTemp .fa-c {
+    transform: translate(10px, 25px);
+    font-size: 1.4rem; 
+}
